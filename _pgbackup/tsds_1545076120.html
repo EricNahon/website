@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="Defualt">
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="keywords" content=""> 
+        <meta name="description" content=""> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=0"> 
+        <link rel="shortcut icon" type="image/png" href="favicon.png"> 
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="css/et-line.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'> 
+        <script src="js/jquery-2.1.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/blocs.min.js"></script>
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/formHandler.js"></script>         
+
+        <title>Service - Blocs Templates</title>         
+
+        <!-- Google Analytics -->         
+
+        <!-- Google Analytics END -->         
+    </head>
+    <body>
+        <!-- Main container -->
+        <div class="page-container"> 
+            <!-- header -->
+            <div class="bloc sticky-nav resume-header bgc-white l-bloc" id="navigation">
+                <div class="container">
+                    <nav class="navbar nav-center row mini-nav">
+                        <div class="navbar-header">
+                            <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse navbar-1 collapse nav-special sidebar-nav">
+                            <ul class="site-navigation nav navbar-nav">
+                                <li>
+                                    <a class="resume-navigation" id="pl-about" onclick="goTo('index.html#about')">About</a>
+                                </li>
+                                <li></li>
+                                <li>
+                                    <a class="resume-navigation" id="pl-experience" onclick="scrollToTarget('#experience')">Experience</a>
+                                </li>
+                                <li>
+</li>
+                                <li>
+                                    <a class="resume-navigation" id="pl-skills" onclick="scrollToTarget('#skills')">Skills</a>
+                                </li>
+                                <li>
+                                    <a class="resume-navigation" id="pl-portfolio" onclick="scrollToTarget('#portfolio')">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a class="resume-navigation" id="pl-contact" onclick="scrollToTarget('#contact-me')">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- header END -->
+            <!-- hero -->
+            <div class="bloc b-parallax bloc-bg-texture texture-darken bgc-onyx bg-Service-2022 d-bloc" id="hero">
+                <div class="container bloc-lg">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-8 col-md-offset-2">
+                            <h1 class="text-center hero-bloc-text tc-white mg-md ">The best Service for you</h1>
+                            <h3 class="text-center hero-bloc-text-sub tc-white mg-md ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis.</h3>
+                            <div class="text-center">
+                                <a href="index.html" class="btn btn-rd btn-d btn-lg service-green-button">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- hero END -->
+            <!-- platforms -->
+            <div class="bloc bgc-dark-jungle-green d-bloc" id="platforms">
+                <div class="container bloc-sm">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-md-offset-3">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <div class="text-center">
+                                        <a href="index.html"><span class="ion ion-social-apple icon-lg hero-icon"></span></a>
+                                    </div>
+                                    <p class="text-center mg-sm "><a href="index.html">macOS</a><br></p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="text-center">
+                                        <a href="index.html"><span class="ion ion-social-windows icon-lg hero-icon"></span></a>
+                                    </div>
+                                    <p class="text-center mg-sm "><a href="index.html">Windows</a><br></p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="text-center">
+                                        <a href="index.html"><span class="ion ion-social-android icon-lg hero-icon"></span></a>
+                                    </div>
+                                    <p class="text-center mg-sm "><a href="index.html">Android</a><br></p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="text-center">
+                                        <a href="index.html"><span class="ion ion-social-apple icon-lg hero-icon"></span></a>
+                                    </div>
+                                    <p class="text-center mg-sm "><a href="index.html">iOS</a><br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- platforms END -->
+            <!-- about -->
+            <div class="bloc tc-onyx bgc-white" id="about">
+                <div class="container bloc-lg">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-8 col-md-offset-2">
+                            <h2 class="mg-md text-center tc-onyx mg-md-sm ">What is your Service?</h2>
+                            <p class="text-center mg-lg ">Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                            <div class="center-block blocsapp-device blocsapp-device-mb mb-space-grey">
+                                <img src="img/Service%201.jpg" class="img-responsive"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- about END -->
+            <!-- functionality -->
+            <div class="bloc b-parallax tc-white bgc-onyx bg-Service-2018 bloc-bg-texture texture-darken-strong" id="functionality">
+                <div class="container bloc-lg">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-8 col-md-offset-2">
+                            <h1 class="text-center mg-md  tc-white">Rich functionality</h1>
+                            <h3 class="text-center mg-lg hero-bloc-text-sub  tc-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean commodo ligula eget dolor.</h3>
+                        </div>
+                    </div>
+                    <div class="row voffset-lg">
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <span class="et-icon-expand icon-lg service-bottom-padding icon-white"></span>
+                            </div>
+                            <h3 class="mg-md text-center  tc-white"><strong>Responsive</strong></h3>
+                            <p class="text-center  mg-lg-xs">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.&nbsp;</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <span class="et-icon-hourglass icon-lg service-bottom-padding icon-white"></span>
+                            </div>
+                            <h3 class="mg-md text-center  tc-white"><strong>Time Saving</strong></h3>
+                            <p class="text-center  mg-lg-xs">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <span class="et-icon-map icon-lg service-bottom-padding icon-white"></span>
+                            </div>
+                            <h3 class="mg-md text-center  tc-white"><strong>Localized</strong></h3>
+                            <p class="text-center  mg-lg-xs">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <span class="et-icon-heart icon-lg service-bottom-padding icon-white"></span>
+                            </div>
+                            <h3 class="mg-md text-center  tc-white"><strong>Beautiful</strong></h3>
+                            <p class="text-center  mg-lg-xs">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- functionality END -->
+            <!-- feature-1 -->
+            <div class="bloc tc-onyx bgc-white" id="feature-1">
+                <div class="container bloc-lg">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-push-6">
+                            <img src="img/Service%202.jpg" class="img-responsive mg-md"/>
+                        </div>
+                        <div class="col-sm-6 col-sm-pull-6">
+                            <h2 class="tc-onyx mg-md service-feature-title "><strong>First feature</strong></h2>
+                            <h3 class="mg-md  tc-north-texas-green mg-sm-xs">A more descriptive sub heading.</h3>
+                            <p class="mg-lg ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- feature-1 END -->
+            <!-- feature-2 -->
+            <div class="bloc tc-onyx bgc-white l-bloc b-divider" id="feature-2">
+                <div class="container bloc-lg">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="img/Service%202.jpg" class="img-responsive mg-md"/>
+                        </div>
+                        <div class="col-sm-6">
+                            <h2 class="tc-onyx mg-md service-feature-title "><strong>Second feature</strong></h2>
+                            <h3 class="mg-md  tc-north-texas-green mg-sm-xs">A more descriptive sub heading.</h3>
+                            <p class="mg-lg ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- feature-2 END -->
+            <!-- feature-3 -->
+            <div class="bloc tc-onyx bgc-white" id="feature-3">
+                <div class="container bloc-lg">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-push-6">
+                            <img src="img/Service%202.jpg" class="img-responsive mg-md"/>
+                        </div>
+                        <div class="col-sm-6 col-sm-pull-6">
+                            <h2 class="tc-onyx mg-md service-feature-title "><strong>Third feature</strong></h2>
+                            <h3 class="mg-md  tc-north-texas-green mg-sm-xs">A more descriptive sub heading.</h3>
+                            <p class="mg-lg ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- feature-3 END -->
+            <!-- sign-up -->
+            <div class="bloc tc-onyx bgc-white-smoke" id="sign-up">
+                <div class="container bloc-lg">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="row voffset">
+                                <div class="col-sm-12">
+                                    <h2 class="mg-md text-center tc-onyx ">Ready to start using our service?</h2>
+                                    <p class="text-center mg-lg ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row voffset-lg">
+                        <div class="col-sm-4">
+                            <div class="panel panel-sq">
+                                <div class="panel-body">
+                                    <div class="text-center">
+                                        <span class="ion ion-edit icon-lg icon-round footer-icon fadeInDown service-footer-icon animated"></span>
+                                    </div>
+                                    <h3 class="mg-md text-center tc-black "><strong>Sign up for free</strong></h3>
+                                    <p class="text-center mg-md  mg-lg-xs">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="panel panel-sq">
+                                <div class="panel-body">
+                                    <div class="text-center">
+                                        <span class="ion ion-arrow-down-a icon-lg icon-round footer-icon fadeInDown animDelay02 service-footer-icon animated"></span>
+                                    </div>
+                                    <h3 class="mg-md text-center tc-black "><strong>Download the app</strong></h3>
+                                    <p class="text-center mg-md  mg-lg-xs">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="panel panel-sq">
+                                <div class="panel-body">
+                                    <div class="text-center">
+                                        <span class="ion ion-play icon-lg icon-round footer-icon fadeInDown animDelay04 service-footer-icon animated"></span>
+                                    </div>
+                                    <h3 class="mg-md text-center tc-black "><strong>Enjoy the Service</strong></h3>
+                                    <p class="text-center mg-md  mg-lg-xs">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row voffset">
+                        <div class="col-sm-12">
+                            <div class="row voffset">
+                                <div class="col-sm-12">
+                                    <p class="text-center text-w-70 mg-lg ">Available for macOS, iOS, Android and Windows.</p>
+                                    <div class="text-center">
+                                        <a href="index.html" class="btn btn-rd btn-d btn-xl service-button">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- sign-up END -->
+            <!-- free-trial -->
+            <div class="bloc bloc-bg-texture texture-darken bgc-white b-parallax bg-Service-2020 d-bloc" id="free-trial">
+                <div class="container bloc-xl">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="row voffset">
+                                <div class="col-sm-12">
+                                    <h1 class="text-center hero-bloc-text mg-md tc-white ">Free 2 weeks trial</h1>
+                                    <h3 class="text-center mg-lg hero-bloc-text-sub tc-white ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h3>
+                                    <div class="text-center">
+                                        <a href="../../../index.html" class="btn  btn-d  btn-lg btn-rd service-green-button" target="_blank">Start now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- free-trial END -->
+            <!-- see-in-action -->
+            <div class="bloc bgc-white l-bloc" id="see-in-action">
+                <div class="container bloc-lg">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-8 col-md-offset-2">
+                            <h2 class="text-center mg-md tc-onyx">Radiabat</h2>
+                            <h3 class="text-center mg-lg hero-bloc-text-sub tc-onyx">Lab Building Management System with core technology<br>built using PLC Siemens S7 &amp; NodeJS&nbsp;&nbsp;</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/63386291?autoplay=0&amp;hd=1&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;fullscreen=1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- see-in-action END -->
+            <!-- principles -->
+            <div class="bloc b-parallax bgc-white bg-Service-2018 bloc-bg-texture texture-darken tc-white-smoke" id="principles">
+                <div class="container bloc-xl">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-8 col-md-offset-2">
+                            <h1 class="text-center hero-bloc-text mg-md  tc-white">We love building quality products</h1>
+                            <h3 class="text-center mg-lg hero-bloc-text-sub  tc-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean commodo ligula eget dolor.</h3>
+                        </div>
+                    </div>
+                    <div class="row fadeInUp voffset-md animated">
+                        <div class="col-md-4 col-sm-12">
+                            <h3 class=" mg-md mg-sm-sm text-center tc-white"><strong>Helping people is our passion</strong></h3>
+                            <p class="mg-lg  text-center text-w-90">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <h3 class=" mg-md mg-sm-sm text-center tc-white"><strong>We are always listening to you</strong></h3>
+                            <p class="mg-lg  text-center text-w-90">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <h3 class=" mg-md mg-sm-sm text-center tc-white"><strong>We learn from our mistakes</strong></h3>
+                            <p class="mg-lg  text-center text-w-90">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- principles END -->
+            <!-- download -->
+            <div class="bloc tc-dark-jungle-green bgc-white l-bloc" id="download">
+                <div class="container bloc-xl">
+                    <div class="row voffset-clear-sm">
+                        <div class="col-xs-12 col-md-8 col-md-offset-2">
+                            <h1 class="text-center mg-md ">Get your Service app now</h1>
+                            <h3 class="text-center hero-bloc-text-sub mg-md ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean commodo ligula eget dolor.</h3>
+                        </div>
+                    </div>
+                    <div class="row voffset-lg">
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <span class="ion ion-social-apple icon-xl"></span>
+                                <h3 class="text-center mg-md tc-onyx "><strong>Service for macOS</strong><br></h3>
+                                <p class="text-center mg-md ">Version 1.1.28 <br>July 28, 2016</p>
+                                <h4 class="text-center mg-md tc-north-texas-green ">OS X 10.9 or newer<br></h4>
+                                <h3 class="text-center mg-sm tc-onyx  mg-lg-xs"><a href="../../../index.html" target="_blank"><strong>Download</strong></a><br></h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <span class="ion ion-social-windows icon-xl"></span>
+                            </div>
+                            <h3 class="text-center mg-md tc-onyx "><strong>Service for Windows</strong><br></h3>
+                            <p class="text-center mg-md ">Version 1.1.28 <br> July 28, 2016</p>
+                            <h4 class="text-center mg-md tc-north-texas-green ">Windows 8 or newer</h4>
+                            <h3 class="text-center mg-sm tc-onyx  mg-lg-xs"><a href="../../../index.html" target="_blank"><strong>Download</strong></a><br></h3>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <span class="ion ion-social-android icon-xl"></span>
+                            </div>
+                            <h3 class="text-center mg-md tc-onyx "><strong>Service for Android</strong><br></h3>
+                            <p class="text-center mg-md ">Version 1.1.28 <br>July 28, 2016<br></p>
+                            <h4 class="text-center mg-md tc-north-texas-green ">Android 4.4 or newer<br></h4>
+                            <h3 class="text-center mg-sm tc-onyx  mg-lg-xs"><a href="../../../index.html" target="_blank"><strong>Download</strong></a><br></h3>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <span class="ion ion-social-apple icon-xl"></span>
+                            </div>
+                            <h3 class="text-center mg-md tc-onyx "><strong>Service for iOS</strong><br></h3>
+                            <p class="text-center mg-md ">Version 1.1.28 <br>July 15, 2016</p>
+                            <h4 class="text-center mg-md tc-north-texas-green ">iOS 9 or newer<br></h4>
+                            <h3 class="text-center mg-sm tc-onyx  mg-lg-xs"><a href="../../../index.html" target="_blank"><strong>Download</strong></a><br></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- download END -->
+            <!-- Bloc Group -->
+            <div class='bloc-group'>
+                <!-- bloc-13 -->
+                <div class="bloc bloc-tile-2 bgc-onyx tc-white" id="bloc-13">
+                    <div class="container bloc-lg">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="text-center">
+                                    <span class="et-icon-desktop icon-xl service-bottom-padding"></span>
+                                </div>
+                                <h3 class="text-center mg-md tc-white "><strong>Use Service on desktop</strong></h3>
+                                <p class="text-center text-w-70 ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- bloc-13 END -->
+                <!-- bloc-14 -->
+                <div class="bloc bloc-tile-2 bgc-dark-jungle-green tc-white" id="bloc-14">
+                    <div class="container bloc-lg">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="text-center">
+                                    <span class="et-icon-mobile icon-xl service-bottom-padding"></span>
+                                </div>
+                                <h3 class="mg-md text-center tc-white "><strong>Use service on the go</strong></h3>
+                                <p class="text-center text-w-70 ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- bloc-14 END -->
+            </div>
+            <!-- Bloc Group END -->
+            <!-- ScrollToTop Button -->
+            <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+            <!-- ScrollToTop Button END-->
+            <!-- Footer - bloc-15 -->
+            <div class="bloc bgc-north-texas-green d-bloc" id="bloc-15">
+                <div class="container bloc-md">
+                    <div class="row voffset">
+                        <div class="col-sm-9">
+                            <h3 class="mg-md tc-white  text-center-xs">Enter your e-mail to get updates</h3>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <a href="../../../index.html" class="btn  btn-d  btn-lg service-white-button" target="_blank">Subscribe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer - bloc-15 END -->
+            <!-- Footer - contact -->
+            <div class="bloc bloc-bg-texture texture-darken b-parallax bgc-white bg-Service-207 d-bloc" id="contact">
+                <div class="container bloc-lg">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1 class="mg-md tc-white  mg-sm-xs text-center">Get in touch with us</h1>
+                            <h3 class="mg-md  tc-white text-center">We are always happy to hear from you</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer - contact END -->
+            <!-- Footer - bloc-17 -->
+            <div class="bloc tc-white bgc-white" id="bloc-17">
+                <div class="container bloc-lg">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                                    <form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <input class="form-control" placeholder="FIRST NAME" id="input_1036"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <input class="form-control" placeholder="LAST NAME" id="input_1987"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="COMPANY" id="input_1462"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" id="input_2595" placeholder="EMAIL"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="PHONE NUMBER" id="input_338"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-control" id="select_1177">
+                                                <option value="0">Contact me by</option>
+                                                <option value="1">Email</option>
+                                                <option value="0">Phone</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="4" cols="50" placeholder="MESSAGE" id="textarea_383"></textarea>
+                                        </div>
+                                        <button class="bloc-button btn btn-d btn-lg btn-block service-button" type="submit">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer - bloc-17 END -->
+            <!-- Footer - bloc-18 -->
+            <div class="bloc bgc-onyx d-bloc" id="bloc-18">
+                <div class="container bloc-sm">
+                    <div class="row voffset">
+                        <div class="col-sm-12">
+                            <p class="text-center  mg-md">Copyright @ 2017 Service &nbsp;| &nbsp;<a href="../../../index.html" target="_blank">Privacy &amp; Legal</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer - bloc-18 END -->
+        </div>
+        <!-- Main container END -->         
+    </body>
+</html>
