@@ -85,3 +85,4 @@ lint/reports/
 # pinegrow
 pinegrow.json
 _pgbackup
+.PREVIEW-index.html
